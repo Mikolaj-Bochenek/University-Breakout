@@ -676,6 +676,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3681543e5b0f59742b73073cb379cdc6, type: 3}
   m_PrefabInstance: {fileID: 650204115}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &659855423
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.55323696
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.234365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424068197, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124453658424431685, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
+      propertyPath: m_Name
+      value: Hit Effect VFX
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
 --- !u!20 &685905388 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
@@ -800,6 +857,7 @@ MonoBehaviour:
   range: 100
   damage: 30
   muzzleFlash: {fileID: 583409815}
+  hitEffect: {fileID: 7124453658424431685, guid: 428ea577ddf162140835deb0110a77b4, type: 3}
 --- !u!4 &830286398 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 44884af1ac1d64d42902da40268ba120, type: 3}
