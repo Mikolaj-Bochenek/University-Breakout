@@ -30,10 +30,18 @@ public class EnemyAI : MonoBehaviour
             AttackTarget();
     }
 
-    void ChaseTarget() => navMeshAgent.SetDestination(target.position);
+    void ChaseTarget()
+    {
+        GetComponent<Animator>().SetBool("attack", false);
+        GetComponent<Animator>().SetTrigger("move");
+        navMeshAgent.SetDestination(target.position);
+    }
 
-    void AttackTarget() => Debug.Log($"{name} has seeked and is destroying {target.name}");
-
+    void AttackTarget()
+    {
+        GetComponent<Animator>().SetBool("attack", true);
+        Debug.Log($"{name} has seeked and is destroying {target.name}");
+    }
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
