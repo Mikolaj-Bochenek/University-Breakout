@@ -352,6 +352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7304629098267573863}
+  - component: {fileID: 2448209472859185576}
   m_Layer: 0
   m_Name: Weapons
   m_TagString: Untagged
@@ -377,6 +378,19 @@ Transform:
   m_Father: {fileID: 400000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2448209472859185576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9086274005923123142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664304885e713484488716d5d8caf605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWeapon: 0
 --- !u!1001 &175190727079810796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -574,15 +588,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.16
+      value: 0.179
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14
+      value: -0.158
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.553
+      value: 0.354
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
       propertyPath: m_LocalRotation.w
@@ -618,7 +632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158997199750, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5311818196023388578, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
       propertyPath: range
@@ -638,7 +652,7 @@ PrefabInstance:
       objectReference: {fileID: 1626233565827746519}
     - target: {fileID: 5311818196023388578, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
       propertyPath: timeBetweenShots
-      value: 0.2
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
@@ -660,15 +674,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 89802c6e65d31fc45ba507505a1d31e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.16
+      value: 0.167
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 89802c6e65d31fc45ba507505a1d31e4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14
+      value: -0.147
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 89802c6e65d31fc45ba507505a1d31e4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.553
+      value: 0.479
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: 89802c6e65d31fc45ba507505a1d31e4, type: 3}
       propertyPath: m_LocalRotation.w
