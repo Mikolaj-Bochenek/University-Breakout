@@ -584,24 +584,6 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 6319944664350189997, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
   m_PrefabInstance: {fileID: 583409814}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &594904524 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3909097530685317266, guid: a2f67203b68b0ae41ab7bd830d439d05, type: 3}
-  m_PrefabInstance: {fileID: 3909097530195928414}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &594904531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594904524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c0e17a959544b24d8278aa1087dc5ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitPoints: 100
 --- !u!1001 &650204115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2001,21 +1983,9 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 429959060}
-    - target: {fileID: 3909097530685317260, guid: a2f67203b68b0ae41ab7bd830d439d05, type: 3}
-      propertyPath: chaseRange
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 3909097530685317263, guid: a2f67203b68b0ae41ab7bd830d439d05, type: 3}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3909097530685317263, guid: a2f67203b68b0ae41ab7bd830d439d05, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3909097530685317263, guid: a2f67203b68b0ae41ab7bd830d439d05, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3909097530685317263, guid: a2f67203b68b0ae41ab7bd830d439d05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2057,10 +2027,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3909097530685317266, guid: a2f67203b68b0ae41ab7bd830d439d05, type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 3909097530685317266, guid: a2f67203b68b0ae41ab7bd830d439d05, type: 3}
       propertyPath: m_Name
       value: Enemy
