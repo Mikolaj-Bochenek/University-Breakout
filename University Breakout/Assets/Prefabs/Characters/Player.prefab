@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 11400004}
   - component: {fileID: 2529690499446809885}
   - component: {fileID: 1303101459368994695}
-  - component: {fileID: 1626233565827746519}
+  - component: {fileID: 5540616667680257442}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverCanvas: {fileID: 0}
---- !u!114 &1626233565827746519
+--- !u!114 &5540616667680257442
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -342,7 +342,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0288fc3e2443d6340a05f6bfe5d1f4f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoAmount: 100
+  ammoSlots:
+  - ammoType: 0
+    ammoAmmount: 100
+  - ammoType: 1
+    ammoAmmount: 100
+  - ammoType: 2
+    ammoAmmount: 100
 --- !u!1 &9086274005923123142
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,11 +483,7 @@ PrefabInstance:
     - target: {fileID: 5311818196023388578, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
       propertyPath: ammoSlot
       value: 
-      objectReference: {fileID: 1626233565827746519}
-    - target: {fileID: 5311818196023388578, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
-      propertyPath: timeBetweenShots
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5540616667680257442}
     - target: {fileID: 6614493412314843626, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
       propertyPath: fpsCamera
       value: 
@@ -649,11 +651,7 @@ PrefabInstance:
     - target: {fileID: 5311818196023388578, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
       propertyPath: ammoSlot
       value: 
-      objectReference: {fileID: 1626233565827746519}
-    - target: {fileID: 5311818196023388578, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
-      propertyPath: timeBetweenShots
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5540616667680257442}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ebfd01911784b648a4be1b393726561, type: 3}
 --- !u!4 &5109716740338929689 stripped
@@ -735,11 +733,7 @@ PrefabInstance:
     - target: {fileID: 3915068703215378692, guid: 89802c6e65d31fc45ba507505a1d31e4, type: 3}
       propertyPath: ammoSlot
       value: 
-      objectReference: {fileID: 1626233565827746519}
-    - target: {fileID: 3915068703215378692, guid: 89802c6e65d31fc45ba507505a1d31e4, type: 3}
-      propertyPath: timeBetweenShots
-      value: 2
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5540616667680257442}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89802c6e65d31fc45ba507505a1d31e4, type: 3}
 --- !u!4 &6038339462072419089 stripped
