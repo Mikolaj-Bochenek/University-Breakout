@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!95 &2636792338844107590
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326736287784899190}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &332221256830601761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2516,15 +2535,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2651779810985063688, guid: f64e8c45153e14d49ab7fcd955a7e0b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -6.67
       objectReference: {fileID: 0}
     - target: {fileID: 2651779810985063688, guid: f64e8c45153e14d49ab7fcd955a7e0b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.392
       objectReference: {fileID: 0}
     - target: {fileID: 2651779810985063688, guid: f64e8c45153e14d49ab7fcd955a7e0b6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.42
       objectReference: {fileID: 0}
     - target: {fileID: 2651779810985063688, guid: f64e8c45153e14d49ab7fcd955a7e0b6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2576,6 +2595,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f64e8c45153e14d49ab7fcd955a7e0b6, type: 3}
+--- !u!1 &5326736287784899190 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1699981684312962636, guid: f64e8c45153e14d49ab7fcd955a7e0b6, type: 3}
+  m_PrefabInstance: {fileID: 6808266415628280890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8842485315734065458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2651779810985063688, guid: f64e8c45153e14d49ab7fcd955a7e0b6, type: 3}
