@@ -20,7 +20,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         IsGamePaused = false;
         FindObjectOfType<WeaponSwitcher>().enabled = true;
-        FindObjectOfType<Weapon>().enabled = true;
+        //FindObjectOfType<Weapon>().enabled = true;
         Cursor.visible = false;
     }
 
@@ -30,7 +30,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0;
         IsGamePaused = true;
         FindObjectOfType<WeaponSwitcher>().enabled = false;
-        FindObjectOfType<Weapon>().enabled = false;
+        //FindObjectOfType<Weapon>().enabled = false;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }

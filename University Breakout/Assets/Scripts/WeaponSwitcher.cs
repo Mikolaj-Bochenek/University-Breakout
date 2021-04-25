@@ -3,6 +3,8 @@ using UnityEngine;
 public class WeaponSwitcher : MonoBehaviour
 {
     [SerializeField] int currentWeapon = 0;
+    [SerializeField] Canvas gunReticleCanvas;
+
     void Start() => SetWeaponActive();
     void Update()
     {
@@ -13,6 +15,15 @@ public class WeaponSwitcher : MonoBehaviour
         if (previousWeapon != currentWeapon)
         {
             SetWeaponActive();
+            if (currentWeapon == 3)
+            {
+                gunReticleCanvas.enabled = false;
+                Debug.Log("laptop");
+            }
+            else
+            {
+                gunReticleCanvas.enabled = true;
+            }
         }
     }
 
